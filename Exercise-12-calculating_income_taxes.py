@@ -26,3 +26,4 @@ else:
 
     tax_rate += (user_income - 20000) * 20 / 100
 
+print("Your need to pay $", tax_rate)
