@@ -13,7 +13,16 @@ else:
 
 if user_income <= 10000:
     tax_rate = 0
+
 elif user_income <= 20000:
     first_ten_thou = user_income - 10000
 
     tax_rate = first_ten_thou * 10 / 100
+
+else: 
+    tax_rate = 0
+
+    tax_rate = 10000 * 10 / 100
+
+    tax_rate += (user_income - 20000) * 20 / 100
+
